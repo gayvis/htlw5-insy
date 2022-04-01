@@ -71,7 +71,7 @@
 
 8.) Welche Eigenschaften treffen auf NoSQL Datenbanken zu?
 
-- [ ] Weiche Konsistenz
+- [x] Weiche Konsistenz
 - [ ] Ich kann es auf jede Problemstellung bestens anwenden
 - [x] viele gleichrangige Knoten
 - [x] schwachse Schemarestriktionen
