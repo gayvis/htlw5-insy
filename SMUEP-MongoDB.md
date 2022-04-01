@@ -61,7 +61,7 @@
 7.) Wie funktioniert die Kommunikation bei Verwendung von Sharding?
 
 - [x] Der Router fragt den ConfigServer, welcher Shard die Anfrage bekommt.
-- [ ] Der Shard kommuniziert direkt mit der Anwendung
+- [ ] Der Shard kommuniziert direkt mit der Anwendung.
 - [x] Der Router fasst die Antwort des Shards zusammen.
 - [ ] Die Anwendung wendet sich an den ConfigServer mit der Anfrage.
 - [x] Die Anwendung wendet sich an den Router mit der Anfrage.
@@ -69,3 +69,51 @@
 - [ ] Der Router bestimmt, welcher Shard die Anfrage bekommt.
 - [ ] Der ConfigServer fasst die Antwort zusammen.
 
+8.) Welche Eigenschaften treffen auf NoSQL Datenbanken zu?
+
+- [ ] Weiche Konsistenz
+- [ ] Ich kann es auf jede Problemstellung bestens anwenden
+- [x] viele gleichrangige Knoten
+- [x] schwachse Schemarestriktionen
+- [x] Hohe Ausfallsicherheit
+- [ ] bedeutet "kein SQL"
+- [ ] Alle Knoten haben immer zur selben Zeit die selben Daten.
+- [ ] man braucht sich überhaupt kein Schema zu überlegen
+
+9.) Kreuze die richtigen Anmerkungen über die interne Arbeitsweise des MongoDB Servers an.
+
+- [x] Die Daten werden defaultmäßig im Sekundenbereich persistiert.
+- [x] Die Operationen werden im Journal gespeichert.
+- [ ] Das Journal wird in den RAM geschrieben, die Daten direkt auf die Disk.
+- [x] Das Journal wird defaultmäßig im Millisekundenbreich persistiert.
+- [ ] Das Journal wird direkt auf die Dissk geschrieben.
+- [ ] Die Dokumente werden im Journal gespeichert.
+
+10.) NoSQL Theorie: Kreuze die richtigen Antworten an:
+
+- [x] BASE sagt aus, dass alle Knoten nicht immer denselben konsistenten Datenzustand haben.
+- [x] Um mehr Durchsatz bei höherer Verfügbarkeit mit mehr Daten zu erreichen, sollte man zuerst vertikal, dann horizontal skalieren.
+- [ ] Das CAP Theorem beinhaltet aus Konsistenz, Verfügbarkeit und Ausfalltoleranz. Bei verteilten Systemen mussen alle drei Eigenschaften erfüllt sein.
+- [x] ACID besagt, dass nach einer Transaktion der Zustand der Datenbank immer konsistent sein muss.
+- [ ] ACID sagt aus, dass nicht immer alle Knoten verfügbar sein müssen.
+
+11.) Welche Kategorien von NoSQL Datenbanken gibt es?
+
+- [x] Graphen
+- [ ] Objektorientierte
+- [x] Spaltenorientierte
+- [ ] Objektrelationale
+- [x] Dokumentenorientierte
+- [ ] Datenbasierte
+- [x] Key/Value
+- [ ] Netzwerk
+
+12.) Kreuze an, was auf den Shard-Schlüssel zutrifft.
+
+- [ ] Bei einer Schlüssel-Mischform könnte der erste Teil aus einem Zeitstempel der Erzeugungszeit und der zweite Teil aus dem Usernamen bestehen.
+- [x] Die Wahl hängt vom Verhältnis der Lese- und Schreiboperationen ab.
+- [ ] Große Teile des Wertebereichs sollen ausgeschöpft werden.
+- [x] Bei monoton steigenden Werten gibt es keine gute Performance bei Schreiboperationen.
+- [ ] Hashwerte habe bei Bereichsabfragen bessere Performance als monoton steigende Werte.
+
+13.) 
