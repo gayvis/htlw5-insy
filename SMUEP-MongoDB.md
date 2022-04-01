@@ -5,7 +5,7 @@
 - [ ] mongos --config
 - [ ] mongoc --configsvr
 - [ ] mongos --configsvr
-- [ x ] mongod --configsvr
+- [x] mongod --configsvr
 - [ ] mongo --config
 - [ ] mongod --config
 - [ ] mongo --configsrv
