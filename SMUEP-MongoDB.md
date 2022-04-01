@@ -115,5 +115,3 @@
 - [ ] Große Teile des Wertebereichs sollen ausgeschöpft werden.
 - [x] Bei monoton steigenden Werten gibt es keine gute Performance bei Schreiboperationen.
 - [ ] Hashwerte habe bei Bereichsabfragen bessere Performance als monoton steigende Werte.
-
-13.) 
