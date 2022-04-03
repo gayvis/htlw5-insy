@@ -65,7 +65,7 @@
 - [x] Der Router fasst die Antwort des Shards zusammen.
 - [ ] Die Anwendung wendet sich an den ConfigServer mit der Anfrage.
 - [x] Die Anwendung wendet sich an den Router mit der Anfrage.
-- [ ] Der ConfigServer sendet an dne Router, der die Anfrage an den Shard weiterleitet.
+- [ ] Der ConfigServer sendet an den Router, der die Anfrage an den Shard weiterleitet.
 - [ ] Der Router bestimmt, welcher Shard die Anfrage bekommt.
 - [ ] Der ConfigServer fasst die Antwort zusammen.
 
@@ -86,7 +86,7 @@
 - [x] Die Operationen werden im Journal gespeichert.
 - [ ] Das Journal wird in den RAM geschrieben, die Daten direkt auf die Disk.
 - [x] Das Journal wird defaultmäßig im Millisekundenbreich persistiert.
-- [ ] Das Journal wird direkt auf die Dissk geschrieben.
+- [ ] Das Journal wird direkt auf die Disk geschrieben.
 - [ ] Die Dokumente werden im Journal gespeichert.
 
 10.) NoSQL Theorie: Kreuze die richtigen Antworten an:
