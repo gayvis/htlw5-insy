@@ -23,7 +23,7 @@
 3.) Welche Eigenschaften treffen auf MongoDB zu?
 
 - [x] Eine RDBMS Attribut entspricht einem MongoDB Feld.
-- [x] eine RDBMS Tabelle entspricht einer MongoDB Collection.
+- [x] Eine RDBMS Tabelle entspricht einer MongoDB Collection.
 - [ ] Ein RDBMS Tupel entspricht einem MongoDB Collection.
 - [ ] Ein RDBMS Attribut eintspricht einem MongoDB Dokument
 - [ ] Eine RDBMS Tabelle entspricht einem MongoDB Dokument.
@@ -50,7 +50,7 @@
 
 6.) Kreuze die vollständig richtigen Antworten, die für die Konfiguration eines großen DB-Systems mit MongoDB gelten sollen:
 
-- [x] Man vewrwendet mehrere Shards, die ein ReplicaSet beinhalten sollen
+- [x] Man verwendet mehrere Shards, die ein ReplicaSet beinhalten sollen
 - [ ] Ein ReplicaSet soll mehrere Shards beinhalten
 - [x] Es soll mehrere Router geben.
 - [ ] Es soll mehrere Router geben und jeder besteht aus einem ReplicaSet.
@@ -65,7 +65,7 @@
 - [x] Der Router fasst die Antwort des Shards zusammen.
 - [ ] Die Anwendung wendet sich an den ConfigServer mit der Anfrage.
 - [x] Die Anwendung wendet sich an den Router mit der Anfrage.
-- [ ] Der ConfigServcer sendet an dne Router, der die Anfrage an den Shard weiterleitet.
+- [ ] Der ConfigServer sendet an dne Router, der die Anfrage an den Shard weiterleitet.
 - [ ] Der Router bestimmt, welcher Shard die Anfrage bekommt.
 - [ ] Der ConfigServer fasst die Antwort zusammen.
 
@@ -73,12 +73,12 @@
 
 - [x] Weiche Konsistenz
 - [ ] Ich kann es auf jede Problemstellung bestens anwenden
-- [x] viele gleichrangige Knoten
-- [x] schwachse Schemarestriktionen
+- [x] Viele gleichrangige Knoten
+- [x] schwache Schemarestriktionen
 - [x] Hohe Ausfallsicherheit
-- [ ] bedeutet "kein SQL"
+- [ ] Bedeutet "kein SQL"
 - [ ] Alle Knoten haben immer zur selben Zeit die selben Daten.
-- [ ] man braucht sich überhaupt kein Schema zu überlegen
+- [ ] Man braucht sich überhaupt kein Schema zu überlegen.
 
 9.) Kreuze die richtigen Anmerkungen über die interne Arbeitsweise des MongoDB Servers an.
 
@@ -114,4 +114,4 @@
 - [x] Die Wahl hängt vom Verhältnis der Lese- und Schreiboperationen ab.
 - [ ] Große Teile des Wertebereichs sollen ausgeschöpft werden.
 - [x] Bei monoton steigenden Werten gibt es keine gute Performance bei Schreiboperationen.
-- [ ] Hashwerte habe bei Bereichsabfragen bessere Performance als monoton steigende Werte.
+- [ ] Hashwerte haben bei Bereichsabfragen bessere Performance als monoton steigende Werte.
