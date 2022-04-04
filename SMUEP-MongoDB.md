@@ -50,8 +50,8 @@
 
 6.) Kreuze die vollständig richtigen Antworten, die für die Konfiguration eines großen DB-Systems mit MongoDB gelten sollen:
 
-- [ ] Man verwendet mehrere Shards, die ein ReplicaSet beinhalten sollen
-- [x] Ein ReplicaSet soll mehrere Shards beinhalten
+- [x] Man verwendet mehrere Shards, die ein ReplicaSet beinhalten sollen
+- [ ] Ein ReplicaSet soll mehrere Shards beinhalten
 - [x] Es soll mehrere Router geben.
 - [ ] Es soll mehrere Router geben und jeder besteht aus einem ReplicaSet.
 - [x] Ein ConfigServer besteht aus einem ReplicaSet.
